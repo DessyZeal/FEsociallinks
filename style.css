@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    background-color: rgb(19, 18, 18);
+    min-height: 100vh;
+    font-family: sans-serif;
+    display: grid;
+    place-content: center;
+}
+.card {
+    background-color: rgb(12, 11, 11);
+    color: whitesmoke;
+    padding: 2rem;
+    max-width: 400px;
+    text-align: center;
+    border-radius: 0.75rem;
+}
+.card img {
+    width: 75px;
+    margin-bottom: 0.5rem;
+    border-radius: 50%;
+}
+.card h1 {
+    font-size: 1.5rem;
+}
+.card .location {
+    color: rgb(141, 206, 44);
+    margin: 0.5rem 0 1.5rem;
+    font-weight: 700;
+}
+.card ul {
+    margin-top: 1.7rem;
+}
+.card ul li:not(:last-child) {
+    margin-bottom: 1rem;
+}
+.card ul li a {
+    background-color: rgb(24, 22, 22);
+    display: block;
+    color: whitesmoke;
+    font-weight: 500;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+.card ul li a:hover {
+    background-color: rgb(141, 206, 44);
+}
